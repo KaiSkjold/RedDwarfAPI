@@ -9,67 +9,67 @@ public class RedDwarfProduct {
 
     @Id
     @GeneratedValue
-    int id;
-    String name;
-    String description;
-    String quote;
-    int seriesNumber;
-    Double price;
-    int Image;
+    int Id;
+    String Name;
+    String Description;
+    String Quote;
+    int SeriesNumber;
+    Double Price;
+    String Image;
 
     public int getId() {
-        return id;
+        return Id;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.Id = id;
     }
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.Name = name;
     }
 
     public String getDescription() {
-        return description;
+        return Description;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        this.Description = description;
     }
 
     public String getQuote() {
-        return quote;
+        return Quote;
     }
 
     public void setQuote(String quote) {
-        this.quote = quote;
+        this.Quote = quote;
     }
 
     public int getSeriesNumber() {
-        return seriesNumber;
+        return SeriesNumber;
     }
 
     public void setSeriesNumber(int seriesNumber) {
-        this.seriesNumber = seriesNumber;
+        this.SeriesNumber = seriesNumber;
     }
 
     public Double getPrice() {
-        return price;
+        return Price;
     }
 
     public void setPrice(Double price) {
-        this.price = price;
+        this.Price = price;
     }
 
-    public int getImage() {
+    public String getImage() {
         return Image;
     }
 
-    public void setImage(int image) {
-        Image = image;
+    public void setImage(String image) {
+        this.Image = image;
     }
 }
